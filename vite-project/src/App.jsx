@@ -1,4 +1,5 @@
-import PROPS0 from "./component/PROPS0";
+import FromSubmit from "./component/FromSubmit";
+
 
 
 
@@ -7,8 +8,7 @@ import PROPS0 from "./component/PROPS0";
 const App = () => {
   return (
     <div>
-      <PROPS0/>
-
+      <FromSubmit />
     </div>
   );
 };
