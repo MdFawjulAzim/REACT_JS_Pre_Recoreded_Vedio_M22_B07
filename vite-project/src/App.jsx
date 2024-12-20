@@ -1,10 +1,13 @@
-function App() {
+import Switch from "./component/Switch";
 
+const App = () => {
   return (
-    <>
-      <h1>React APP</h1>
-    </>
-  )
-}
+    <div>
+      <h1>Hi</h1>
+      <Switch />
 
-export default App
+    </div>
+  );
+};
+
+export default App;
