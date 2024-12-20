@@ -1,10 +1,13 @@
-import Switch from "./component/Switch";
+import PROPS0 from "./component/PROPS0";
+
+
+
+
 
 const App = () => {
   return (
     <div>
-      <h1>Hi</h1>
-      <Switch />
+      <PROPS0/>
 
     </div>
   );
