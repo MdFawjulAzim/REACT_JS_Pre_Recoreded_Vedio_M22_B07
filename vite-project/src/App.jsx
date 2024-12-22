@@ -1,14 +1,9 @@
-import FromSubmit from "./component/FromSubmit";
-
-
-
-
-
+import ReactHookUseRef from './component/ReactHookUseRef';
 
 const App = () => {
   return (
     <div>
-      <FromSubmit />
+      <ReactHookUseRef />
     </div>
   );
 };
