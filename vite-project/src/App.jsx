@@ -1,10 +1,11 @@
-// import ReactHookUseRefCssClass from "./component/ReactHookUseRefCssClass";
+import ReactHookUseRefCachingExpensiveComputations from "./component/ReactHookUseRefCachingExpensiveComputations";
+
 
 
 const App = () => {
   return (
     <div>
-       {/* <ReactHookUseRefCssClass /> */}
+      <ReactHookUseRefCachingExpensiveComputations />
     </div>
   );
 };

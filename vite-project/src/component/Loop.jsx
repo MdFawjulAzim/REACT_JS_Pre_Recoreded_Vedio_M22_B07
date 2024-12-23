@@ -4,13 +4,21 @@ const city = ['Dhaka', 'Chittagong', 'Khulna', 'Rajshahi', 'Sylhet', 'Barishal',
 const Loop = () => {
     return (
         <div>
-            <ol>
+            {/* <ol>
                 {
                     city.map((item, index) => {
                         return <li key={index}>{item}</li>
                     })
                 }
-            </ol>            
+            </ol>     */}
+
+            <ol>
+                {
+                    city.map((item, index) => {
+                        return <li>{item}</li>
+                    })
+                }
+            </ol>         
         </div>
     );
 };
