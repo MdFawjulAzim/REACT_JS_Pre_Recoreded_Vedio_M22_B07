@@ -12,6 +12,7 @@ const PROPS1 = (props) => {
         <div>
             <h2>Props1 Recived string:</h2>
             <h5>{props.title }</h5>  
+            <h5>{props.des }</h5>  
             <h2>&& Sent Object--</h2>       
             <PROPS2 item = {ItemObj} />  
         </div>
