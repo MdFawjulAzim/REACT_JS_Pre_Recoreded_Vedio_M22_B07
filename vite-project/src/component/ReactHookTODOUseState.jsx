@@ -2,8 +2,8 @@ import { useState } from "react";
 
 const ReactHookTODOUseState = () => {
     const [list, setList] = useState([]);
-    const [item, setItem] = useState("");
-
+    const [item, setItem] = useState("")
+    
     const AddToList =()=>{
         list.push(item);
         setList([...list]);

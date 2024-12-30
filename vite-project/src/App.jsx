@@ -1,9 +1,10 @@
-import ReactHookMangeFormUseState from "./component/ReactHookMangeFormUseState";
+import ReactHookUseEffectMethodFetch from "./component/ReactHookUseEffectMethodFetch";
+
 
 const App = () => {
   return (
     <div>
-      <ReactHookMangeFormUseState />                   
+      <ReactHookUseEffectMethodFetch/>
     </div>
   );
 };
