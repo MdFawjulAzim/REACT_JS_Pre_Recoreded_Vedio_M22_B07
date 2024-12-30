@@ -1,10 +1,10 @@
-import ReactHookUseEffectAXiousMethodAxious from "./component/ReactHookUseEffectAXiousMethodAxious";
+import ReactRouterDom from "./component/ReactRouterDom";
 
 
 const App = () => {
   return (
     <div>
-      <ReactHookUseEffectAXiousMethodAxious/>
+      <ReactRouterDom/>
     </div>
   );
 };
