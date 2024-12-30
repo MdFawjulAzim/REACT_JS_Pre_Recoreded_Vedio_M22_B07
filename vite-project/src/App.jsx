@@ -1,10 +1,10 @@
-import ReactHookUseEffectAsyncAwaitMethodFetch from "./component/ReactHookUseEffectAsyncAwaitMethodFetch";
+import ReactHookUseEffectAXiousMethodAxious from "./component/ReactHookUseEffectAXiousMethodAxious";
 
 
 const App = () => {
   return (
     <div>
-      <ReactHookUseEffectAsyncAwaitMethodFetch/>
+      <ReactHookUseEffectAXiousMethodAxious/>
     </div>
   );
 };
