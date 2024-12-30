@@ -1,5 +1,5 @@
-import ReactRouterDom from "./component/ReactRouterDom";
 
+import ReactRouterDom from './component/ReactRouterDom.jsx';
 
 const App = () => {
   return (
